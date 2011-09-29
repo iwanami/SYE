@@ -1,0 +1,7 @@
+SYE - Labo1 - sujet VFS
+
+question 3
+
+non, la commande 'rm <file_name>' (par exemple rm cd.txt) ne fonctionne pas. La console nachos repond: 'Unable to remove <file_name>'
+De plus, la console eclipse indique: 'Syscall unlink not yet implemented'.
+Ceci signifie que l'appel système permettant de supprimer un fichier n'existe pas. Cet appel système, unlink, n'est donc simplement pas implémenté.
